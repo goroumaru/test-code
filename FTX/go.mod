@@ -10,3 +10,5 @@ require (
 	gonum.org/v1/plot v0.7.0
 	gopkg.in/ini.v1 v1.57.0
 )
+
+replace github.com/thrasher-corp/gocryptotrader => ../../gocryptotrader
