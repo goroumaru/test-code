@@ -3,6 +3,7 @@ module github.com/goroumaru/test-code/FTX
 go 1.13
 
 require (
+	github.com/goroumaru/test-code v0.0.0-20200805073913-9c6b3a4dcb1b
 	github.com/montanaflynn/stats v0.6.3
 	github.com/thrasher-corp/gocryptotrader v0.0.0-20200804040818-0e30756e353e
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1

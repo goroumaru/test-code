@@ -5,6 +5,11 @@ import (
 	"strconv"
 )
 
+// Float64ToString : convert float64 to string.
+func Float64ToString(f float64) string {
+	return strconv.FormatFloat(f, 'f', 10, 64)
+}
+
 // ToFloat64 : string to float64
 func ToFloat64(s string) float64 {
 	f, _ := strconv.ParseFloat(s, 64)
